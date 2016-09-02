@@ -1,5 +1,6 @@
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
+apply plugin: 'sonar-runner'
 
 group = 'BankAppGradle'
 version = '0.0.1-SNAPSHOT'
@@ -117,8 +118,12 @@ file('author.txt').text='My Name Vijayalakshmi'
 
 
 
-
-
+sonarRunner {
+	 sonarProperties {
+	   property "sonar.projectName", "BankApp-Gradle"
+	   property "sonar.projectKey", "org.sonarqube:java-gradle-simple"
+	 }
+	}
 
 
 
