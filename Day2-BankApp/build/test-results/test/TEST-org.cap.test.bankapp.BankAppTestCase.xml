@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.cap.test.bankapp.BankAppTestCase" tests="11" skipped="0" failures="0" errors="0" timestamp="2016-09-01T12:26:16" hostname="LIN73000499" time="0.035">
+  <properties/>
+  <testcase name="test_Addnumbers" classname="org.cap.test.bankapp.BankAppTestCase" time="0.003"/>
+  <testcase name="test" classname="org.cap.test.bankapp.BankAppTestCase" time="0.0"/>
+  <testcase name="invalid_initialAmount_exceptionTest" classname="org.cap.test.bankapp.BankAppTestCase" time="0.005"/>
+  <testcase name="when_addAccount_with_null_customer_exception_thrown" classname="org.cap.test.bankapp.BankAppTestCase" time="0.0"/>
+  <testcase name="test_Addnumbers" classname="org.cap.test.bankapp.BankAppTestCase" time="0.0"/>
+  <testcase name="test" classname="org.cap.test.bankapp.BankAppTestCase" time="0.0"/>
+  <testcase name="invalid_initialAmount_exceptionTest" classname="org.cap.test.bankapp.BankAppTestCase" time="0.001"/>
+  <testcase name="when_addAccount_with_null_customer_exception_thrown" classname="org.cap.test.bankapp.BankAppTestCase" time="0.0"/>
+  <testcase name="test_Addnumbers" classname="org.cap.test.bankapp.BankAppTestCase" time="0.0"/>
+  <testcase name="test" classname="org.cap.test.bankapp.BankAppTestCase" time="0.0"/>
+  <testcase name="invalid_initialAmount_exceptionTest" classname="org.cap.test.bankapp.BankAppTestCase" time="0.0"/>
+  <system-out><![CDATA[Before Method
+test_Addnumbers
+After Method
+Before Method
+After Method
+Before Method
+After Method
+Before Method
+After Method
+BeforeClass Method
+Before Method
+test_Addnumbers
+After Method
+Before Method
+After Method
+Before Method
+After Method
+Before Method
+After Method
+AfterClass Method
+Before Method
+test_Addnumbers
+After Method
+Before Method
+After Method
+Before Method
+After Method
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
