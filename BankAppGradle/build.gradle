@@ -117,7 +117,7 @@ file('author.txt').text='My Name Vijayalakshmi'
 }*/
 
 
-/*
+
 sonarRunner {
 	 sonarProperties {
 	   property "sonar.projectName", "BankApp-Gradle"
@@ -125,7 +125,7 @@ sonarRunner {
 	 }
 	}
 
-*/
+
 
 
 

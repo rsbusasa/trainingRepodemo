@@ -1,0 +1,11 @@
+package org.cap.test.bankapp;
+
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import org.junit.runners.Suite.SuiteClasses;
+
+@RunWith(Suite.class)
+@SuiteClasses({ BankAppTestCase.class, DemoTestCases.class })
+public class BankAppSuite {
+
+}
