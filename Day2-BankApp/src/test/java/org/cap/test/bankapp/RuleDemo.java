@@ -21,18 +21,19 @@ public class RuleDemo {
 		accountService=new AccountServiceImpl();
 	}
 
-	@Rule
+	/*@Rule
 	public ExpectedException thrown=ExpectedException.none();
-	@Test
+	*/
+	@Test(expected=IllegalArgumentException.class)
 	public void test() throws InvalidInitialAmountException {
 		//thrown.expect(IllegalArgumentException.class);
-		thrown.expect(InvalidInitialAmountException.class);
+		/*thrown.expect(InvalidInitialAmountException.class);
 		thrown.expectMessage("balance");
-		
-		Customer customer=new Customer();
+		*/
+		/*Customer customer=new Customer();
 		customer.setCustName("Tom");
-		
-		accountService.addAccount(customer, 100);
+		*/
+		accountService.addAccount(null, 1000);
 		
 	}
 	

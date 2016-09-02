@@ -17,7 +17,7 @@ public class DemoTestCases {
 
 	
 	@Rule
-	public Timeout timeOut=new Timeout(1);
+	public Timeout timeOut=new Timeout(100);
 	@Category(BadTestCategory.class)
 	//@Test(timeout=500)
 	@Test
